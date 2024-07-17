@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagenes/iconos/navbar_logo.png" type="image/x-icon">
+    <title>Libreria del Saber</title>
+</head>
+
+<body>
+<div class="header-top">
+    <div class="nav-header">
+        <a href="./enlaces/about.html">Quienes somos</a>
+        <a href="./enlaces/contact.html">Contacto</a>
+    </div>
+
+    <div class="nav-header-2">
+        <a href="./enlaces/profile.html">
+		<img src="imagenes/iconos/user.ico" alt="user icon" class="profile-icon">Mi Perfil
+        </a>
+    </div>
+</div>
+
+<div class="header-middle">
+    <div class="logo">
+        <img src="imagenes/iconos/navbar_logo.png" alt="logo">
+        <h1>LIBRERIA <br> DEL SABER</h1>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Titulo, Autor o ISBN">
+        <button type="submit"><img src="imagenes/iconos/lupa.png" alt="Buscar"></button>
+    </div>
+
+    <div class="cart">
+        <a href="#">
+        <img src="imagenes/iconos/cart.ico" alt="cart icon" class="cart-icon">Mi Compra
+        </a>
+    </div>
+</div>
+
+<div class="header-nav">
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Libros</a>
+                <div class="dropdown-content">
+                    <a href="#">Economía</a>
+                    <a href="#">Historia</a>
+                    <a href="#">Filosofía</a>
+                    <a href="#">Política y Derecho</a>
+                </div>
+            </li>
+            <li><a href="#">Noticias</a></li>
+        </ul>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="imagenes/iconos/facebook.ico" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="imagenes/iconos/instagram.ico" alt="Instagram"></a>
+            <a href="https://www.x.com" target="_blank"><img src="imagenes/iconos/twitter.ico" alt="Twitter"></a>
+        </div>
+    </nav>
+</div>
+
+<section class="section">
+    <div class="carrusel fade">
+        <img src="imagenes/carrusel/carrusel1.jpg" alt="carrusel1">
+    </div>
+
+    <div class="carrusel fade">
+        <img src="imagenes/carrusel/carrusel2.jpg" alt="carrusel2">
+    </div>
+
+    <div class="carrusel fade">
+        <img src="imagenes/carrusel/carrusel3.jpg" alt="carrusel3">
+    </div>
+
+    <div class="carrusel fade">
+        <img src="imagenes/carrusel/carrusel4.jpg" alt="carrusel4">
+    </div>
+
+        <a class="anterior" onclick="push(-1)">&#10094</a>
+        <a class="siguiente" onclick="push(1)">&#10095</a>
+</section>
+
+<div class="novedades">
+    <h2>NOVEDADES</h2>
+    <div class="book-list">
+        <div class="book">
+            <img src="imagenes/novedades/novedades-libro1.jpg" alt="LA REINA DE LA TORRE"/>
+            <h3>LA REINA DE LA TORRE <span class="status-dot green"></span></h3>
+            <p>DE LA VEGA, KARI / ORDINOLA, FÁTIMA</p>
+            <p class="price">S/ 55.00</p>
+            <a href="./enlaces/N1.html" class="buy-button">Comprar</a>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/novedades/novedades-libro2.jpg" alt="POESIA REUNIDA 1985-2016"/>
+            <h3>POESIA REUNIDA 1985-2016 <span class="status-dot green"></span></h3>
+            <p>ROSELLA DI PAOLO</p>
+            <p class="price">S/ 49.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/novedades/novedades-libro3.jpg" alt="TANTA VIDA YO TE DI"/>
+            <h3>TANTA VIDA <br> YO TE DI <span class="status-dot green"></span></h3>
+            <p>AMPUERO, FERNANDO</p>
+            <p class="price">S/ 50.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        
+        <div class="book">
+            <img src="imagenes/novedades/novedades-libro4.png" alt="MONTACERDOS Y OTROS CUENTOS"/>
+            <h3>MONTACERDOS Y OTROS CUENTOS <span class="status-dot green"></span></h3>
+            <p>CRONWELL JARA</p>
+            <p class="price">S/ 20.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/novedades/novedades-libro5.jpg" alt="MIENTRAS TANTO EN LA TIERRA">
+            <h3>MIENTRAS TANTO EN LA TIERRA <span class="status-dot red"></span></h3>
+            <p>JEFFERS, OLIVER</p>
+            <p class="price">S/ 75.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="economia">
+    <h2>ECONOMIA</h2>
+    <div class="book-list">
+        <div class="book">
+            <img src="imagenes/economia/economia-libro1.jpg" alt="LA CAPITAL EN EL SIGLO XXI"/>
+            <h3>LA CAPITAL EN EL SIGLO XXI<span class="status-dot green"></span></h3>
+            <p>TOMAS PIKETTY</p>
+            <p class="price">S/ 87.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/economia/economia-libro2.jpg" alt="LOS ALTOS INGRESOS EN FRANCIA"/>
+            <h3>LOS ALTOS INGRESOS EN FRANCIA<span class="status-dot green"></span></h3>
+            <p>TOMAS PIKETTY</p>
+            <p class="price">S/ 93.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/economia/economia-libro3.jpg" alt="TEORIA GENERAL DE LA OCUPACION"/>
+            <h3>TEORIA GENERAL DE LA OCUPACION<span class="status-dot green"></span></h3>
+            <p>KEYNES, JOHN MAYNARD</p>
+            <p class="price">S/ 52.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        
+        <div class="book">
+            <img src="imagenes/economia/economia-libro4.jpg" alt="PROSPERIDAD SIN CRECIMIENTO"/>
+            <h3>PROSPERIDAD SIN CRECIMIENTO<span class="status-dot green"></span></h3>
+            <p>JACKSON, TIM</p>
+            <p class="price">S/ 88.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/economia/economia-libro5.jpg" alt="LAS RIQUEZAS DE LAS NACIONES"/>
+            <h3>LAS RIQUEZAS DE LAS NACIONES<span class="status-dot green"></span></h3>
+            <p>ROS JAIME</p>
+            <p class="price">S/ 85.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="historia">
+    <h2>HISTORIA</h2>
+    <div class="book-list">
+        <div class="book">
+            <img src="imagenes/historia/historia-libro1.jpg" alt="EL MEDITERRANEO Y EL MUNDO"/>
+            <h3>EL MEDITERRANEO Y EL MUNDO<span class="status-dot green"></span></h3>
+            <p>BRAUDEL, FERNAND</p>
+            <p class="price">S/ 75.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/historia/historia-libro2.jpg" alt="LA MARCHA DE LA LOCURA"/>
+            <h3>LA MARCHA DE LA LOCURA<span class="status-dot green"></span></h3>
+            <p>BARBARA W.TUCHMAN</p>
+            <p class="price">S/ 65.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/historia/historia-libro3.jpg" alt="HABLO DE LA CIUDAD"/>
+            <h3>HABLO DE LA CIUDAD<span class="status-dot green"></span></h3>
+            <p>MAURICIO TENORIO TRILLO</p>
+            <p class="price">S/ 29.90</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        
+        <div class="book">
+            <img src="imagenes/historia/historia-libro4.jpg" alt="LAS ESPOSAS DE CRISTO"/>
+            <h3>LAS ESPOSAS DE CRISTO<span class="status-dot green"></span></h3>
+            <p>ASUNCION LAVRIN</p>
+            <p class="price">S/ 84.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/historia/historia-libro5.jpg" alt="EL DIABLO EN EL AGUA BENDITA"/>
+            <h3>EL DIABLO EN EL AGUA BENDITA<span class="status-dot green"></span></h3>
+            <p>DARNTON, ROBERT</p>
+            <p class="price">S/ 73.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="filosofia">
+    <h2>FILOSOFIA</h2>
+    <div class="book-list">
+        <div class="book">
+            <img src="imagenes/filosofia/filosofia-libro1.jpg" alt="LA ESCUELA DE FRÁNCFORT"/>
+            <h3>LA ESCUELA DE FRÁNCFORT<span class="status-dot green"></span></h3>
+            <p>WIGGERSHAUS, ROLF</p>
+            <p class="price">S/ 110.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/filosofia/filosofia-libro2.jpg" alt="ANARQUÍA, ESTADO Y UTOPÍA"/>
+            <h3>ANARQUÍA, ESTADO Y UTOPÍA<span class="status-dot green"></span></h3>
+            <p>NOZICK, ROBERT</p>
+            <p class="price">S/ 55.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/filosofia/filosofia-libro3.jpg" alt="SURGIMIENTO Y AUGE DEL NEOKANTISMO"/>
+            <h3>SURGIMIENTO Y AUGE DEL NEOKANTISMO<span class="status-dot green"></span></h3>
+            <p>KÖHNKE,KLAUS-CHRISTIAN</p>
+            <p class="price">S/ 73.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        
+        <div class="book">
+            <img src="imagenes/filosofia/filosofia-libro4.jpg" alt="EL SER Y EL TIEMPO"/>
+            <h3>EL SER Y EL TIEMPO<span class="status-dot green"></span></h3>
+            <p>HEIDEGGER, MARTIN</p>
+            <p class="price">S/ 59.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/filosofia/filosofia-libro5.jpg" alt="SOBRE EL POLÍTICO DE PLATÓN"/>
+            <h3>SOBRE EL POLÍTICO DE PLATÓN<span class="status-dot green"></span></h3>
+            <p>CASTORIADIS, CORNELIUS</p>
+            <p class="price">S/ 43.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</div>
+
+<div class="politica y derecho">
+    <h2>POLITICA Y DERECHO</h2>
+    <div class="book-list">
+        <div class="book">
+            <img src="imagenes/politica-derecho/politica&derecho-libro1.jpg" alt="LE FUTURO DE LA DEMOCRACIA"/>
+            <h3>LE FUTURO DE LA DEMOCRACIA</h3>
+            <p>BOBBIO NORBERTO</p>
+            <p class="price">S/ 49.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/politica-derecho/politica&derecho-libro2.jpg" alt="LA DEMOCRACIA EN AMERICA"/>
+            <h3>LA DEMOCRACIA EN AMERICA</h3>
+            <p>TOCQUEVILLE, ALEXIS DE</p>
+            <p class="price">S/ 79.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/politica-derecho/politica&derecho-libro3.jpg" alt="LOS PARTIDOS POLITICOS"/>
+            <h3>LOS PARTIDOS POLITICOS</h3>
+            <p>DUVERGER, MAURICE</p>
+            <p class="price">S/ 59.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+        
+        <div class="book">
+            <img src="imagenes/politica-derecho/politica&derecho-libro4.jpg" alt="MAS ALLA DEL ESTADIO NACIONAL"/>
+            <h3>MAS ALLA DEL ESTADIO NACIONAL</h3>
+            <p>HABERMAS, JURGEN</p>
+            <p class="price">S/ 39.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+
+        <div class="book">
+            <img src="imagenes/politica-derecho/politica&derecho-libro5.jpg" alt="TEORIA DEL ESTADO"/>
+            <h3>TEORIA DEL ESTADO</h3>
+            <p>HELLER, HERMANN</p>
+            <p class="price">S/ 65.00</p>
+            <button class="buy-button">Comprar</button>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-bottom container">
+        <div class="row justify-content-center">
+            <div class="col-md-3 text-center">
+                <img class="footer-logo" title="logo" alt="Libreria del Saber" src="imagenes/iconos/footer_logo.jpg">
+                <ul class="social-networks">
+                    <li class="instagram">
+                        <a title="Facebook" target="_blank" href="https://www.facebook.com"><img src="imagenes/iconos/facebook.ico" alt="Facebook"></a>
+                    </li>
+                    <li class="twitter">
+                        <a title="Instagram" target="_blank" href="https://www.instagram.com"><img src="imagenes/iconos/instagram.ico" alt="instagram"></a>
+                    </li>
+                    <li class="facebook">
+                        <a title="Twitter" target="_blank" href="https://www.x.com"><img src="imagenes/iconos/twitter.ico" alt="Twitter"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2 class="footer-heading">Contacto</h2>
+                <ul class="contact-info-footer">
+                    <li><a href="#" target="_blank"><img src="imagenes/iconos/phone.ico" alt="phone">(+51) 999-9999</a></li>
+                    <li><a href="#" target="_blank"><img src="imagenes/iconos/email.ico" alt="email">atencionalcliente@zegel.pe</a></li>
+                    <li><a href="./enlaces/contact.html" ><img src="imagenes/iconos/message.ico" alt="message">Formulario de contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2 class="footer-heading">Páginas legales</h2>
+                <ul class="legal-pages">
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Condiciones de venta</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2 class="footer-heading">Atención al cliente</h2>
+                <ul class="customer-service">
+                    <li><a href="./enlaces/about.html">Quiénes somos</a></li>
+                    <li><a href="#">Libro de reclamaciones</a></li>
+                    <li><a href="#">Pedido especiales</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p class="info-name">
+                    2024 © <strong>Libreria del Saber</strong>. Todos los Derechos Reservados | Grupo 4 Zegel IPAE
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

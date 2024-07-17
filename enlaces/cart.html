@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/iconos/navbar_logo.png" type="image/x-icon">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="nav-header">
+            <a href="./quienes_somos.html">Quienes somos</a>
+            <a href="./contacto.html">Contacto</a>
+        </div>
+    
+        <div class="nav-header-2">
+            <a href="./mi_perfil.html">
+            <img src="../imagenes/iconos/user.ico" alt="user icon" class="profile-icon">Mi Perfil
+            </a>
+        </div>
+    </div>
+    
+    <div class="header-middle">
+        <div class="logo">
+            <img src="../imagenes/iconos/navbar_logo.png" alt="logo">
+            <h1>LIBRERIA <br> DEL SABER</h1>
+        </div>
+    
+        <div class="search">
+            <input type="text" placeholder="Titulo, Autor o ISBN">
+            <button type="submit"><img src="../imagenes/iconos/lupa.png" alt="Buscar"></button>
+        </div>
+    
+        <div class="cart">
+            <a href="#">
+            <img src="../imagenes/iconos/cart.ico" alt="cart icon" class="cart-icon">Mi Compra
+            </a>
+        </div>
+    </div>
+    
+    <div class="header-nav">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Libros</a>
+                    <div class="dropdown-content">
+                        <a href="#">Economía</a>
+                        <a href="#">Historia</a>
+                        <a href="#">Filosofía</a>
+                        <a href="#">Política y Derecho</a>
+                    </div>
+                </li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><img src="../imagenes/iconos/facebook.ico" alt="Facebook"></a>
+                <a href="#"><img src="../imagenes/iconos/instagram.ico" alt="Instagram"></a>
+                <a href="#"><img src="../imagenes/iconos/twitter.ico" alt="Twitter"></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="cart-container">
+        <div class="breadcrumbs">
+            <a href="../index.html">INICIO</a> / <span>CARRITO</span>
+        </div>
+        <h1>CARRITO</h1>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>ARTÍCULO</th>
+                    <th>P. UNID.</th>
+                    <th>PRECIO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="product">
+                        <img src="../imagenes/novedades/novedades-libro1.jpg" alt="La Reina de la Torre">
+                        <div class="product-info">
+                            <h2>LA REINA DE LA TORRE</h2>
+                            <p>DE LA VEGA, KARÍ / ORDINOLA, FÁTIMA</p>
+                            <a href="#" class="remove">Eliminar</a>
+                        </div>
+                    </td>
+                    <td class="quantity">
+                        <button class="quantity-button">-</button>
+                        <input type="text" value="1">
+                        <button class="quantity-button">+</button>
+                    </td>
+                    <td class="unit-price">S/ 55.00</td>
+                    <td class="total-price">S/ 55.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="shipping-info">
+            <h3>Gastos de envío</h3>
+            <p>Selecciona la zona de envío, la forma de pago y la forma de envío</p>
+            <div class="shipping-options">
+                <div class="shipping-option">
+                    <label for="zone">ZONA DE ENVÍO</label>
+                    <select id="zone">
+                        <option>Seleccione zona de envío</option>
+                    </select>
+                </div>
+                <div class="shipping-option">
+                    <label for="payment">FORMA DE PAGO</label>
+                    <select id="payment">
+                        <option>Seleccione forma de pago</option>
+                    </select>
+                </div>
+                <div class="shipping-option">
+                    <label for="shipping">FORMA DE ENVÍO</label>
+                    <select id="shipping">
+                        <option>Seleccione forma de envío</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <p>TOTAL <span>S/ 55.00</span></p>
+            <button class="checkout-button">Realizar pedido</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-bottom container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 text-center">
+                    <img class="footer-logo" title="logo" alt="Libreria del Saber" src="../imagenes/iconos/footer_logo.jpg">
+                    <ul class="social-networks">
+                        <li class="instagram">
+                            <a title="Facebook" target="_blank" href="#"><img src="../imagenes/iconos/facebook.ico" alt="Facebook"></a>
+                        </li>
+                        <li class="twitter">
+                            <a title="Instagram" target="_blank" href="#"><img src="../imagenes/iconos/instagram.ico" alt="instagram"></a>
+                        </li>
+                        <li class="facebook">
+                            <a title="Twitter" target="_blank" href="#"><img src="../imagenes/iconos/twitter.ico" alt="Twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="footer-heading">Contacto</h2>
+                    <ul class="contact-info-footer">
+                        <li><a href="#" target="_blank"><img src="../imagenes/iconos/phone.ico" alt="phone">(+51) 999-9999</a></li>
+                        <li><a href="#" target="_blank"><img src="../imagenes/iconos/email.ico" alt="email">atencionalcliente@zegel.pe</a></li>
+                        <li><a href="#" target="_blank"><img src="../imagenes/iconos/message.ico" alt="message">Formulario de contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="footer-heading">Páginas legales</h2>
+                    <ul class="legal-pages">
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Condiciones de venta</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Política de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="footer-heading">Atención al cliente</h2>
+                    <ul class="customer-service">
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Libro de reclamaciones</a></li>
+                        <li><a href="#">Pedido especiales</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="info-name">
+                        2024 © <strong>Libreria del Saber</strong>. Todos los Derechos Reservados | Grupo 4 Zegel IPAE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
