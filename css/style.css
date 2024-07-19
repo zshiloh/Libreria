@@ -2485,7 +2485,7 @@ body {
 
 .main-container {
     width: 80%;
-    margin: 30px auto;
+    margin: 100px auto;
     background-color: #f9f9f9;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -2534,7 +2534,7 @@ body {
 
 .month-title {
     flex: 1;
-    width: 10px;
+    width: 100px;
 }
 
 .month-title h2 {
@@ -2556,7 +2556,7 @@ body {
 .books {
     display: flex;
     justify-content: space-around;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 .book-item {
