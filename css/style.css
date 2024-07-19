@@ -1232,7 +1232,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.month-title {
+.month-title h2 {
     color: black;
     margin-bottom: 10px;
     position: relative;
@@ -1240,7 +1240,7 @@ body {
     margin-left: 30px;
 }
 
-.month-title::after {
+.month-title h2::after {
     content: '';
     display: block;
     width: 100px;
@@ -1252,7 +1252,7 @@ body {
 .books {
     display: flex;
     justify-content: flex-end;
-    margin-left: 187px;
+    margin-left: 250px;
 }
 
 .book-item {
@@ -2481,6 +2481,124 @@ body {
     border: none;
     cursor: pointer;
     font-size: 10px;
+}
+
+.main-container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-section {
+    flex: 1;
+    padding: 0px;
+    min-width: 300px;
+}
+
+.title-section h2 {
+    color: black;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 11px;
+}
+
+.title-section h2::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: red;
+    margin: 3px 0 0 0;
+}
+
+.title-section p {
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+
+.news-image {
+    flex: 1;
+    padding: 0px;
+}
+
+.news-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.month-title {
+    flex: 1;
+    width: 10px;
+}
+
+.month-title h2 {
+    color: black;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 11px;
+}
+
+.month-title h2::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: red;
+    margin: 3px 0 0 0;
+}
+
+.books {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.book-item {
+    padding: 10px;
+    margin: 0px;
+    width: 55px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.book-item h4 {
+    font-size: 0.4rem;
+    margin: 5px 0;
+    position: relative;
+}
+
+.book-item p {
+    margin: 2px 0;
+    font-size: 0.3rem;
+}
+
+.not-available {
+    display: inline-block;
+    padding: 4px 0px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 6px;
 }
 }
 
