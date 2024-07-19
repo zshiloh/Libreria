@@ -1312,14 +1312,13 @@ body {
         align-items: center;
         margin-left: 1010px;
     }
-}
 
     .novedades h2 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         position: relative;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 90px;
+        margin-left: 35px;
     }
     
     .novedades h2::after {
@@ -1330,34 +1329,34 @@ body {
         height: 5px;
         background: red;
         margin: 8px auto 0;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
-.economia h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    position: relative;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 90px;
-}
-
-.economia h2::after {
-    position: relative;
-    content: '';
-    display: block;
-    width: 100px;
-    height: 5px;
-    background: red;
-    margin: 8px auto 0;
-    margin-left: 0px;
+    .economia h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 35px;
+    }
+    
+    .economia h2::after {
+        position: relative;
+        content: '';
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: red;
+        margin: 8px auto 0;
+        margin-left: 0;
     }
 
     .historia h2 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         position: relative;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 90px;
+        margin-left: 35px;
     }
     
     .historia h2::after {
@@ -1368,15 +1367,15 @@ body {
         height: 5px;
         background: red;
         margin: 8px auto 0;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .filosofia h2 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         position: relative;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 90px;
+        margin-left: 35px;
     }
     
     .filosofia h2::after {
@@ -1387,15 +1386,15 @@ body {
         height: 5px;
         background: red;
         margin: 8px auto 0;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .politica.derecho h2 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         position: relative;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 90px;
+        margin-left: 35px;
     }
     
     .politica.derecho h2::after {
@@ -1406,6 +1405,18 @@ body {
         height: 5px;
         background: red;
         margin: 8px auto 0;
+        margin-left: 0;
+    }
+
+    .privacy-policy {
+        display: flex;
+        align-items: center;
+        margin-right: 360px;
+    }
+
+    .books {
+        display: flex;
+        justify-content: flex-end;
         margin-left: 0px;
     }
 }
