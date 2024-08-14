@@ -15,7 +15,7 @@
 ## 📑 Índice 📑
 
 1. [📄 Introducción 📄](#📄-introducción-📄)
-2. [Objetivo del Proyecto 🎯](#objetivo-del-proyecto-🎯)
+2. [🎯 Objetivo del Proyecto 🎯](#🎯-objetivo-del-proyecto-🎯)
    1. [Objetivo General](#objetivo-general)
    2. [Objetivos Específicos](#objetivos-específicos)
 3. [🚀 Misión y Visión 🚀](#🚀-misión-y-visión-🚀)
