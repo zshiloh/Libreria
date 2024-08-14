@@ -54,7 +54,7 @@
 
 ¿Por qué salir de casa cuando puedes tener una librería completa al alcance de tus dedos? Navega por nuestra selección de libros desde la comodidad de tu sofá y recíbelos directamente en tu puerta.
 
-## Objetivo del Proyecto 🎯
+## 🎯 Objetivo del Proyecto 🎯
 
 ### Objetivo General
 
