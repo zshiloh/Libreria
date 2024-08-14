@@ -15,7 +15,7 @@
 ## 📑 Índice 📑
 
 1. [📄 Introducción 📄](#📄-introducción-📄)
-2. [🎯 Objetivo del Proyecto 🎯](#🎯-objetivo-del-proyecto-🎯)
+2. [Objetivo del Proyecto 🎯](#objetivo-del-proyecto-🎯)
    1. [Objetivo General](#objetivo-general)
    2. [Objetivos Específicos](#objetivos-específicos)
 3. [🚀 Misión y Visión 🚀](#🚀-misión-y-visión-🚀)
@@ -54,7 +54,7 @@
 
 ¿Por qué salir de casa cuando puedes tener una librería completa al alcance de tus dedos? Navega por nuestra selección de libros desde la comodidad de tu sofá y recíbelos directamente en tu puerta.
 
-## 🎯 Objetivo del Proyecto 🎯
+## Objetivo del Proyecto 🎯
 
 ### Objetivo General
 
