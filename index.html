@@ -26,7 +26,7 @@
 <div class="header-middle">
     <div class="logo">
         <img src="imagenes/iconos/navbar_logo.png" alt="logo">
-        <h1>LIBRERIA <br>DEL SABER</h1>
+        <h1>LIBRERIA <br> DEL SABER</h1>
     </div>
 
     <div class="search">
@@ -35,7 +35,7 @@
     </div>
 
     <div class="cart">
-        <a href="#">
+        <a href="./enlaces/empty.html">
         <img src="imagenes/iconos/cart.ico" alt="cart icon" class="cart-icon">Mi Compra
         </a>
     </div>
@@ -81,8 +81,12 @@
         <img src="imagenes/carrusel/carrusel4.jpg" alt="carrusel4">
     </div>
 
-        <a class="anterior" onclick="push(-1)">&#10094</a>
-        <a class="siguiente" onclick="push(1)">&#10095</a>
+    <div class="indicadores">
+        <span class="punto" onclick="irASlide(1)"></span>
+        <span class="punto" onclick="irASlide(2)"></span>
+        <span class="punto" onclick="irASlide(3)"></span>
+        <span class="punto" onclick="irASlide(4)"></span>
+    </div>
 </section>
 
 <div class="novedades">
@@ -101,7 +105,7 @@
             <h3>POESIA REUNIDA 1985-2016 <span class="status-dot green"></span></h3>
             <p>ROSELLA DI PAOLO</p>
             <p class="price">S/ 49.00</p>
-            <button href="#" class="buy-button">Comprar</button>
+            <a href="./enlaces/N2.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -109,7 +113,7 @@
             <h3>TANTA VIDA <br> YO TE DI <span class="status-dot green"></span></h3>
             <p>AMPUERO, FERNANDO</p>
             <p class="price">S/ 50.00</p>
-            <button href="#" class="buy-button">Comprar</button>
+            <a href="./enlaces/N3.html" class="buy-button">Comprar</a>
         </div>
         
         <div class="book">
@@ -117,7 +121,7 @@
             <h3>MONTACERDOS Y OTROS CUENTOS <span class="status-dot green"></span></h3>
             <p>CRONWELL JARA</p>
             <p class="price">S/ 20.00</p>
-            <button href="#" class="buy-button">Comprar</button>
+            <a href="./enlaces/N4.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -125,7 +129,7 @@
             <h3>MIENTRAS TANTO EN LA TIERRA <span class="status-dot red"></span></h3>
             <p>JEFFERS, OLIVER</p>
             <p class="price">S/ 75.00</p>
-            <button href="#" class="buy-button">Comprar</button>
+            <a class="buy-button">Comprar</a>
         </div>
     </div>
 </div>
@@ -138,7 +142,7 @@
             <h3>LA CAPITAL EN EL SIGLO XXI<span class="status-dot green"></span></h3>
             <p>TOMAS PIKETTY</p>
             <p class="price">S/ 87.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/E1.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -146,7 +150,7 @@
             <h3>LOS ALTOS INGRESOS EN FRANCIA<span class="status-dot green"></span></h3>
             <p>TOMAS PIKETTY</p>
             <p class="price">S/ 93.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/E2.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -154,7 +158,7 @@
             <h3>TEORIA GENERAL DE LA OCUPACION<span class="status-dot green"></span></h3>
             <p>KEYNES, JOHN MAYNARD</p>
             <p class="price">S/ 52.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/E3.html" class="buy-button">Comprar</a>
         </div>
         
         <div class="book">
@@ -162,7 +166,7 @@
             <h3>PROSPERIDAD SIN CRECIMIENTO<span class="status-dot green"></span></h3>
             <p>JACKSON, TIM</p>
             <p class="price">S/ 88.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/E4.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -170,7 +174,7 @@
             <h3>LAS RIQUEZAS DE LAS NACIONES<span class="status-dot green"></span></h3>
             <p>ROS JAIME</p>
             <p class="price">S/ 85.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/E5.html" class="buy-button">Comprar</a>
         </div>
     </div>
 </div>
@@ -183,7 +187,7 @@
             <h3>EL MEDITERRANEO Y EL MUNDO<span class="status-dot green"></span></h3>
             <p>BRAUDEL, FERNAND</p>
             <p class="price">S/ 75.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/H1.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -191,15 +195,15 @@
             <h3>LA MARCHA DE LA LOCURA<span class="status-dot green"></span></h3>
             <p>BARBARA W.TUCHMAN</p>
             <p class="price">S/ 65.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/H2.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
             <img src="imagenes/historia/historia-libro3.jpg" alt="HABLO DE LA CIUDAD"/>
-            <h3>HABLO DE LA CIUDAD<span class="status-dot green"></span></h3>
+            <h3>HABLO DE <br> LA CIUDAD<span class="status-dot green"></span></h3>
             <p>MAURICIO TENORIO TRILLO</p>
             <p class="price">S/ 29.90</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/H3.html" class="buy-button">Comprar</a>
         </div>
         
         <div class="book">
@@ -207,7 +211,7 @@
             <h3>LAS ESPOSAS DE CRISTO<span class="status-dot green"></span></h3>
             <p>ASUNCION LAVRIN</p>
             <p class="price">S/ 84.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/H4.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -215,7 +219,7 @@
             <h3>EL DIABLO EN EL AGUA BENDITA<span class="status-dot green"></span></h3>
             <p>DARNTON, ROBERT</p>
             <p class="price">S/ 73.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/H5.html" class="buy-button">Comprar</a>
         </div>
     </div>
 </div>
@@ -228,7 +232,7 @@
             <h3>LA ESCUELA DE FRÁNCFORT<span class="status-dot green"></span></h3>
             <p>WIGGERSHAUS, ROLF</p>
             <p class="price">S/ 110.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/F1.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -236,7 +240,7 @@
             <h3>ANARQUÍA, ESTADO Y UTOPÍA<span class="status-dot green"></span></h3>
             <p>NOZICK, ROBERT</p>
             <p class="price">S/ 55.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/F2.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -244,7 +248,7 @@
             <h3>SURGIMIENTO Y AUGE DEL NEOKANTISMO<span class="status-dot green"></span></h3>
             <p>KÖHNKE,KLAUS-CHRISTIAN</p>
             <p class="price">S/ 73.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/F3.html" class="buy-button">Comprar</a>
         </div>
         
         <div class="book">
@@ -252,7 +256,7 @@
             <h3>EL SER Y EL TIEMPO<span class="status-dot green"></span></h3>
             <p>HEIDEGGER, MARTIN</p>
             <p class="price">S/ 59.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/F4.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -260,7 +264,7 @@
             <h3>SOBRE EL POLÍTICO DE PLATÓN<span class="status-dot green"></span></h3>
             <p>CASTORIADIS, CORNELIUS</p>
             <p class="price">S/ 43.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/F5.html" class="buy-button">Comprar</a>
         </div>
     </div>
 </div>
@@ -273,7 +277,7 @@
             <h3>LE FUTURO DE LA DEMOCRACIA</h3>
             <p>BOBBIO NORBERTO</p>
             <p class="price">S/ 49.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/P1.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -281,7 +285,7 @@
             <h3>LA DEMOCRACIA EN AMERICA</h3>
             <p>TOCQUEVILLE, ALEXIS DE</p>
             <p class="price">S/ 79.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/P2.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -289,7 +293,7 @@
             <h3>LOS PARTIDOS POLITICOS</h3>
             <p>DUVERGER, MAURICE</p>
             <p class="price">S/ 59.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/P3.html" class="buy-button">Comprar</a>
         </div>
         
         <div class="book">
@@ -297,7 +301,7 @@
             <h3>MAS ALLA DEL ESTADIO NACIONAL</h3>
             <p>HABERMAS, JURGEN</p>
             <p class="price">S/ 39.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/P4.html" class="buy-button">Comprar</a>
         </div>
 
         <div class="book">
@@ -305,7 +309,7 @@
             <h3>TEORIA DEL ESTADO</h3>
             <p>HELLER, HERMANN</p>
             <p class="price">S/ 65.00</p>
-            <button class="buy-button">Comprar</button>
+            <a  href="./enlaces/P5.html" class="buy-button">Comprar</a>
         </div>
     </div>
 </div>

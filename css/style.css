@@ -223,31 +223,25 @@ body {
     object-fit: cover;
 }
 
-.anterior, .siguiente {
+.indicadores {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: rgba(10, 10, 10, 0.815);
-    width: 30px;
-    height: 35px;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.punto {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 
-.siguiente {
-    right: 0;
-}
-
-.anterior:hover, .siguiente:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.punto.active {
+    background-color: rgb(0, 0, 0);
 }
 
 .fade{
@@ -1029,7 +1023,7 @@ body {
 /*DETALLES DEL CARRITO*/
 .cart-container {
     width: 80%;
-    margin: 20px auto;
+    margin: 130px auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1558,23 +1552,21 @@ body {
         object-fit: cover;
     }
     
-    .anterior, .siguiente {
+    .indicadores {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        margin-left: 10px;
-        margin-right: 10px;
-        color: white;
-        font-size: 13px;
-        font-weight: bold;
-        cursor: pointer;
-        background-color: rgba(10, 10, 10, 0.815);
-        width: 15px;
-        height: 15px;
+        bottom: 1px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .punto {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        margin: 0 0;
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        cursor: pointer;
     }
 
     .novedades h2 {
